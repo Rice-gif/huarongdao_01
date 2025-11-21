@@ -1,8 +1,8 @@
 class PuzzleGame {
     constructor() {
-        this.size = 4; // 4x4 棋盘
+        this.size = 3; // 3x3 棋盘（9格）
         this.board = [];
-        this.emptyIndex = 15; // 空格的初始位置（最后一个位置）
+        this.emptyIndex = 8; // 空格的初始位置（最后一个位置）
         this.moves = 0;
         this.time = 0;
         this.timer = null;
